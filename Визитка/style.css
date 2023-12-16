@@ -1,0 +1,229 @@
+body {
+
+  font-family: "Helvetica";
+  background-color: #f5f5f5;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 40px 0;
+}
+
+.header__avatar {
+  border-radius: 50%;
+}
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+}
+ .text-primary {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+  color:#ffc107
+
+ }
+
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: linear-gradient(to bottom, #cb782f, #ffffff); /* Градиентный фон */
+  border-radius: 20px;
+  border: none;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #ffffff;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+}
+
+
+.links__title {
+  margin: 20;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+
+
+
+
+/* Стили для секции с навыками и стеком */
+#services {
+  background-color: #f8f9fa; /* Цвет фона секции */
+  padding: 60px 0; /* Внутренние отступы для секции */
+}
+
+.text-light-muted {
+    color: #8492a6 !important;
+}
+
+.text-light-muted {
+    color: #8492a6 !important;
+}
+.para-desc-600 {
+    max-width: 600px;
+
+}
+.pera-title {
+    font-size: 15px;
+}
+.mb-0 {
+    margin-bottom: 50!important;
+}
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+{
+    box-sizing: border-box;
+}
+
+
+/* Стили для заголовка секции */
+.container-title h2.title {
+  font-size: 36px; /* Размер шрифта заголовка */
+  color: #333; /* Цвет текста заголовка */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стили для описания секции */
+.container-title p.para-title {
+  font-size: 18px; /* Размер шрифта описания */
+  color: #888; /* Цвет текста описания */
+}
+
+/* Стили для блоков с навыками */
+.feature-widget {
+  background-color: #fff; /* Цвет фона блока */
+  padding: 20px; /* Внутренние отступы блока */
+  border-radius: 5px; /* Скругление углов блока */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень блока */
+  transition: transform 0.2s ease-in-out; /* Анимация при наведении */
+  text-align: center; /* Выравнивание текста по центру */
+  margin-bottom: 20px; /* Отступ снизу между блоками */
+}
+
+.feature-widget:hover {
+  transform: translateY(-5px); /* Поднимаем блок при наведении */
+}
+
+
+.feature-widget .fea.icon-md {
+    height: 38px;
+    width: 38px;
+    color: 
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+/* Стили для заголовка блока */
+.services-texts h3.title {
+  font-size: 24px; /* Размер шрифта заголовка блока */
+  color: #333; /* Цвет текста заголовка блока */
+  margin-bottom: 15px; /* Отступ снизу */
+}
+
+/* Стили для описания блока */
+.services-texts p.text-light-muted {
+  font-size: 16px; /* Размер шрифта описания блока */
+  color: #777; /* Цвет текста описания блока */
+  margin-bottom: 0; /* Убираем отступ снизу */
+}
+
+/* Медиа-запрос для адаптивности */
+@media (max-width: 768px) {
+  .feature-widget {
+    width: 100%; /* Ширина блока на мобильных устройствах */
+  }
+}
+
+
+
+
+.links__title {
+  font-size: 18px; /* Размер шрифта заголовка */
+  color: #333; /* Цвет текста заголовка */
+  margin-bottom: 5px; /* Отступ снизу */
+}
+
+.links__link a {
+  font-size: 16px; /* Размер шрифта ссылки */
+  color: #007bff; /* Цвет ссылки */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+.links__link a:hover {
+  text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
+
+/* Стили для контактных деталей */
+.contact-detail {
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+
+.icon {
+  width: 26px; /* Размер иконки */
+  height: 26px;
+  fill: #007bff; /* Цвет иконки */
+  margin-top: 15px;
+  
+}
+
+.title {
+  font-size: 18px; /* Размер шрифта заголовка контактной детали */
+  color: #333; /* Цвет текста заголовка контактной детали */
+  margin-bottom: 10px; /* Отступ снизу */
+  margin-top: 10px
+}
+
+.content a {
+  font-size: 16px; /* Размер шрифта ссылки */
+  color: #007bff; /* Цвет ссылки */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+.content a:hover {
+  text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
+
+/* Медиа-запрос для адаптивности */
+@media (max-width: 768px) {
+  .links__link,
+  .contact-detail {
+    width: 100%; /* Ширина элементов на мобильных устройствах */
+  }
+}
