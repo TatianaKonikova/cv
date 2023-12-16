@@ -40,8 +40,7 @@ body {
   align-items: center;
   padding: 10px;
   width: 320px;
-  background: linear-gradient(to bottom, #cb782f, #ffffff); /* Градиентный фон */
-  border-radius: 20px;
+  background: linear-gradient(to bottom, #cb782f, #ffffff); 
   border: none;
 
   font-size: 14px;
@@ -73,11 +72,10 @@ footer {
 
 
 
-/* Стили для секции с навыками и стеком */
+
 #services {
-  background-color: #f8f9fa; /* Цвет фона секции */
-  padding: 60px 0; /* Внутренние отступы для секции */
-}
+  background-color: #f8f9fa; 
+  padding: 60px 0;
 
 .text-light-muted {
     color: #8492a6 !important;
@@ -110,32 +108,31 @@ p {
 }
 
 
-/* Стили для заголовка секции */
+
 .container-title h2.title {
-  font-size: 36px; /* Размер шрифта заголовка */
-  color: #333; /* Цвет текста заголовка */
-  margin-bottom: 20px; /* Отступ снизу */
+  font-size: 36px;
+  color: #333; 
+  margin-bottom: 20px; 
 }
 
-/* Стили для описания секции */
+
 .container-title p.para-title {
-  font-size: 18px; /* Размер шрифта описания */
-  color: #888; /* Цвет текста описания */
-}
+  font-size: 18px; 
+  color: #888;
 
-/* Стили для блоков с навыками */
+
 .feature-widget {
-  background-color: #fff; /* Цвет фона блока */
-  padding: 20px; /* Внутренние отступы блока */
-  border-radius: 5px; /* Скругление углов блока */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень блока */
-  transition: transform 0.2s ease-in-out; /* Анимация при наведении */
-  text-align: center; /* Выравнивание текста по центру */
-  margin-bottom: 20px; /* Отступ снизу между блоками */
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out; 
+  text-align: center; 
+  margin-bottom: 20px; 
 }
 
 .feature-widget:hover {
-  transform: translateY(-5px); /* Поднимаем блок при наведении */
+  transform: translateY(-5px); 
 }
 
 
@@ -149,81 +146,77 @@ img, svg {
     vertical-align: middle;
 }
 
-/* Стили для заголовка блока */
+
 .services-texts h3.title {
-  font-size: 24px; /* Размер шрифта заголовка блока */
-  color: #333; /* Цвет текста заголовка блока */
-  margin-bottom: 15px; /* Отступ снизу */
+  font-size: 24px; 
+  color: #333; 
+  margin-bottom: 15px; 
 }
 
-/* Стили для описания блока */
+
 .services-texts p.text-light-muted {
-  font-size: 16px; /* Размер шрифта описания блока */
-  color: #777; /* Цвет текста описания блока */
-  margin-bottom: 0; /* Убираем отступ снизу */
+  font-size: 16px; 
+  color: #777; 
+  margin-bottom: 0;
 }
 
-/* Медиа-запрос для адаптивности */
+
 @media (max-width: 768px) {
   .feature-widget {
-    width: 100%; /* Ширина блока на мобильных устройствах */
+    width: 100%; 
   }
 }
 
-
-
-
 .links__title {
-  font-size: 18px; /* Размер шрифта заголовка */
-  color: #333; /* Цвет текста заголовка */
-  margin-bottom: 5px; /* Отступ снизу */
+  font-size: 18px; 
+  color: #333; 
+  margin-bottom: 5px; 
 }
 
 .links__link a {
-  font-size: 16px; /* Размер шрифта ссылки */
-  color: #007bff; /* Цвет ссылки */
-  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 16px; 
+  color: #007bff;
+  text-decoration: none; 
 }
 
 .links__link a:hover {
-  text-decoration: underline; /* Подчеркиваем ссылку при наведении */
-}
+  text-decoration: underline; 
 
-/* Стили для контактных деталей */
+
 .contact-detail {
-  text-align: center; /* Выравнивание текста по центру */
+  text-align: center; 
 }
 
 
 .icon {
-  width: 26px; /* Размер иконки */
+  width: 26px; 
   height: 26px;
-  fill: #007bff; /* Цвет иконки */
+  fill: #007bff; 
   margin-top: 15px;
   
 }
 
 .title {
-  font-size: 18px; /* Размер шрифта заголовка контактной детали */
-  color: #333; /* Цвет текста заголовка контактной детали */
-  margin-bottom: 10px; /* Отступ снизу */
+  font-size: 18px; 
+  color: #333; 
+  margin-bottom: 10px; 
   margin-top: 10px
 }
 
 .content a {
-  font-size: 16px; /* Размер шрифта ссылки */
-  color: #007bff; /* Цвет ссылки */
-  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 16px; 
+  color: #007bff; 
+  text-decoration: none; 
 }
 
 .content a:hover {
-  text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+  text-decoration: underline; 
 }
 
-/* Медиа-запрос для адаптивности */
+
 @media (max-width: 768px) {
   .links__link,
   .contact-detail {
-    width: 100%; /* Ширина элементов на мобильных устройствах */
+    width: 100%; 
   }
 }
